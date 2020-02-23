@@ -8,7 +8,7 @@ exports.config = {
   helpers: {
     Playwright: {
       url: '',
-      show: true,
+      show: false,
       restart: false,
       windowSize: "1200x880",
       browser: getBrowser()
